@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+</head>
+<body id="app">
+  <div class="container">
+    <div class="search">
+      <div class="search-wrapper">
+        <input type="text" id="city-input" placeholder="Enter city..." autocomplete="off" />
+        <div id="search-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+               stroke="#cccccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </div>
+        <ul id="suggestions" class="dropdown hidden"></ul>
+      </div>
+    </div>
+    <div id="weather-result" class="weather-card" style="display:none;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
