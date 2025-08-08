@@ -1,6 +1,6 @@
 # 🌦 Weather App
 
-A responsive weather application built with **HTML**, **CSS**, and **JavaScript**, using the [OpenWeatherMap API](https://openweathermap.org/api) to display real-time weather data with a clean and animated user interface.
+A weather application built with **HTML**, **CSS**, and **JavaScript**, using the [OpenWeatherMap API](https://openweathermap.org/api) to display real-time weather data with a clean and animated user interface.
 
 ---
 
